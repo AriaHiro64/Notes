@@ -1,0 +1,5 @@
+for some reason the zte zfive 2 only displays 240p despite it having an hd screen.
+installing ad and entering these commands seems to fix it. you need usb debugging obviously.
+
+adb shell wm size 720x1280
+adb shell wm density 293 && adb reboot
